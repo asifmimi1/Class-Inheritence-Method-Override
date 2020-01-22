@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+var myCar = Car()
+var Elon = SelfDrivingCar()
 
+print(myCar.colour)
+myCar.drive()
+print(Elon.newGenCar)
+Elon.drive()
